@@ -1,0 +1,2058 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from bot.emirkabal.com/commands by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Dec 2020 10:23:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="author" content="Emir Kabal">
+<meta content="https://bot.emirkabal.com/public/img/logo/botlogo.png" property="og:image">
+<link rel="icon" type="image/png" sizes="32x32" href="public/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="public/img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="public/img/icons/favicon-16x16.png">
+<meta name="description"
+    content="Kabal's Discord botunun hakkında bilgiler alabileceğiniz, komutlarını görebileceğiniz resmi internet sitesi. Sitemizden bot ile ilgili her türlü bilgiye ulaşabilir, tamamiyle resmi Kabal's botun sitesini inceleyebilirsiniz!">
+<meta name="keywords" content="Kabal,Kabals,discord,bot,Kabalbot">
+<meta property="og:site_name" content="Kabal's Bot">
+<meta name="theme-color" content="#3892cf">
+<link rel="canonical" href="index.html">
+
+<link rel="stylesheet" href="../stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap" rel="stylesheet">
+<link href="../cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle%403.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet"> <!--aga test -->
+<link rel="stylesheet" href="public/css/custom.css">
+<link rel="stylesheet" href="public/css/purecookie.css">
+<script src="../kit.fontawesome.com/90eaeaf66d.js" crossorigin="anonymous"></script>
+
+    <script data-ad-client="ca-pub-4879579032863674" async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+    <!-- bildirim -->
+    <script charset="UTF-8" src="../cdn.sendpulse.com/js/push/27f578ccda984d671390d47e12a598f0_1.js" async></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144173986-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-144173986-2');
+    </script>
+
+
+    <title>Kabal's Discord Botu | Komutlar</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="header" style="background-color: #282929; padding-left: 15%; padding-right: 15%;">
+    <a href="index.html" class="navbar-brand font-weight-bold" style="font-size: 20px;">
+        <img src="public/img/logo/botlogo-circle.svg" width="30" style="padding-bottom: 4px;">
+        Kabal's Bot
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="padding-bottom: 4px;">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html#">Ana Sayfa</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html#features">Özellikler</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html#plans">Abonelikler</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="commands.html">Komutlar</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav" style="padding-bottom: 4px;">
+            <li>
+                <a href="https://goo.gl/MsyYzE" target="_blank" class="nav-link"><i class="fab fa-discord"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/EmirKabal" target="_blank" class="nav-link"><i class="fab fa-twitter"></i></a>
+            </li>
+            
+                <li>
+                    <a class="nav-link font-weight-bold" href="javascript:login('/dashboard')">Giriş yap</a>
+                </li>
+                  
+        </ul>
+    </div>
+
+</nav>
+
+<button onclick="topFunction()" id="top" title="Yukarı çık"><i class="fas fa-chevron-up"></i></button>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-color custom-shadow" id="category_selector">
+                    <div class="card-header">Kategoriler</div>
+                    <div class="card-body">
+            
+                        <ul class="nav flex-column nav-pills" id="category_tabs">
+                            
+                            
+                                
+                                <li class="nav-link categoryButton active" id="category-1">🛠 Genel</li>
+                            
+                                
+                                <li class="nav-link categoryButton " id="category-2">😄 Eğlence</li>
+                            
+                                
+                                <li class="nav-link categoryButton " id="category-3">🔨 Moderasyon</li>
+                            
+                                
+                                <li class="nav-link categoryButton " id="category-4">🔊 Müzik</li>
+                            
+                                
+                                <li class="nav-link categoryButton " id="category-5">🧙‍♂️ Profil</li>
+                            
+                                
+                                <li class="nav-link categoryButton " id="category-6">🎲 Oyunlar</li>
+                            
+                        </ul>
+            
+                    </div>
+                </div>
+                <br>
+                <script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- sabit yeni -->
+<div style="padding-top: 30px;">
+	<center>
+	<ins class="adsbygoogle"
+		 style="display:block"
+		 data-ad-client="ca-pub-4879579032863674"
+		 data-ad-slot="9923567844"
+		 data-ad-format="auto"
+		 data-full-width-responsive="true"></ins>
+	</center>
+</div>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+
+            <div class="col-md-6">
+                <div class="custom-search">
+                    <input type="text" id="command_search" placeholder="Arayacağınız komutu belirtiniz.">
+                    <i class="fas fa-search"></i>
+                </div>
+                <br>
+                <div id="not_found" class="card card-color custom-shadow" style="display: none; margin-bottom:30px">
+                    <div class="card-body text-center">
+                        <h3>Böyle bir komut bulunamadı.</h3>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    
+                    
+                    
+                        <div class="tab-pane active" id="category-1">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        altın
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kurla alakalı güncel altın bilgilerini gösterir.</p>
+                                        <code class="bot-only-color">-altın ceyrek-altin</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        alıntıla
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen ID&#39;li mesajın bilgilerini alıntılar.</p>
+                                        <code class="bot-only-color">-alıntıla 123456789123456789</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        apex
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcının Apex Legends istatistiklerini gösterir.</p>
+                                        <code class="bot-only-color">-apex emirkabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        atatürk
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Rastgele Atatürk fotoğrafı gönderir.</p>
+                                        <code class="bot-only-color">-atatürk</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        ayarlar
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botun bulunduğunuz sunucudaki ayarlarını gönderir.</p>
+                                        <code class="bot-only-color">-ayarlar</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        bağlantılar
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botun tüm sosyal ağlardaki bağlantılarını gönderir.</p>
+                                        <code class="bot-only-color">-bağlantılar</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        bilgi
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcının bütün discord verilerilini gösterir.</p>
+                                        <code class="bot-only-color">-bilgi @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        botbilgi
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botun istatistiklerini canlı olarak görmenizi sağlar.</p>
+                                        <code class="bot-only-color">-botbilgi</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        davetler
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucuda bulunan davetleri listeler.</p>
+                                        <code class="bot-only-color">-davetler</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        davetoluştur
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Komutun yazıldığı kanal için bir davet bağlantısı oluşturur.</p>
+                                        <code class="bot-only-color">-davetoluştur</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        discrim
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botun kullanıcıları arasında sizin ile aynı discrim&#39;e (#3345) sahip olan kullanıcıları bulur.</p>
+                                        <code class="bot-only-color">-discrim</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        döviz
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kurla alakalı güncel döviz bilgilerini gösterir.</p>
+                                        <code class="bot-only-color">-döviz USD</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        fivem
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen FiveM sunucusunun istatistiklerini gösterir.</p>
+                                        <code class="bot-only-color">-fivem [&lt;ip&gt;:&lt;port&gt;]</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        fortnite
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Fortnite adlı oyundaki oyuncu istatistiklerini gösterir.</p>
+                                        <code class="bot-only-color">-fortnite &lt;mağaza/pc|xbox|ps4&gt; &lt;kullanıcı&gt;</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        google
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen yazıyı Google üzerinde arar ve çıkan sonucu size gösterir.</p>
+                                        <code class="bot-only-color">-google Emir Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        havadurumu
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen şehrin havadurumunu gösterir.</p>
+                                        <code class="bot-only-color">-havadurumu Ankara</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        instagram
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen Instagram kullanıcısının bilgilerini gösterir.</p>
+                                        <code class="bot-only-color">-instagram emirkaball</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        işlem
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot sizin için hesap makinesi olarak kullanılabilir.</p>
+                                        <code class="bot-only-color">-işlem 1 * 2</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        jumbo
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen emojiyi resim haline dönüştürür.</p>
+                                        <code class="bot-only-color">-jumbo :emoji:</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        korona
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Korona Virüsün (COVID-19) istatistiklerini gösterir.</p>
+                                        <code class="bot-only-color">-korona</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        kısalt
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen bağlantıyı kısaltır.</p>
+                                        <code class="bot-only-color">-kısalt emirkabal.com</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        namazvakti
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen şehrin namaz vakitlerini gösterir.</p>
+                                        <code class="bot-only-color">-namazvakti İstanbul</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        oyun
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen oyunun Steam adlı platformdaki bilgilerini gösterir.</p>
+                                        <code class="bot-only-color">-oyun Portal 2</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        pf
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcının profil fotoğrafını gösterir.</p>
+                                        <code class="bot-only-color">-pf @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        puantablosu
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen ligin puan tablosunu gösterir.</p>
+                                        <code class="bot-only-color">-puantablosu süperlig</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        pubg
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcının PLAYERUNKNOWN&#39;S BATTLEGROUNDS istatistiklerini gösterir.</p>
+                                        <code class="bot-only-color">-pubg solo-fpp emirkabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        shardbilgi
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botun shard bilgilerini gösterir.</p>
+                                        <code class="bot-only-color">-shardbilgi</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        snipe
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bulunduğunuz kanaldaki son silinen mesajı gösterir.</p>
+                                        <code class="bot-only-color">-snipe</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        spoiler
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen yazıyı bota spoiler içinde yazdırırsınız.</p>
+                                        <code class="bot-only-color">-spoiler Merhaba bu yazıyı spoiler içine aldım çok havalı!</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        spotify
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcının Spotify üzerinde dinlediği şarkının bilgilerini gösterir.</p>
+                                        <code class="bot-only-color">-spotify @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        sunucubilgi
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bulunduğunuz sunucunun istatistiklerini gösterir.</p>
+                                        <code class="bot-only-color">-sunucubilgi</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        tarih
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Türkiye saatini güncel olarak gösterir.</p>
+                                        <code class="bot-only-color">-tarih</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        vikipedi
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirttiğiniz şeyi Vikipedi de arar.</p>
+                                        <code class="bot-only-color">-vikipedi Zaman Yolculuğu</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        yasaklananlar
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucuda yasaklanmış komutları listeler.</p>
+                                        <code class="bot-only-color">-yasaklananlar</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        yazdır
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen yazıyı bota yazdırırsınız.</p>
+                                        <code class="bot-only-color">-yazdır Merhaba ben bir botum!</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        youtube
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirttiğiniz şeyi YouTube da arar ve çıkan sonucu size gösterir.</p>
+                                        <code class="bot-only-color">-youtube Müslüm Gürses - Sigara</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        çevir
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen yazıyı belirtilen dile göre çevirir.</p>
+                                        <code class="bot-only-color">-çevir en Merhaba dünya!</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        özelkomutlar
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucuda bulununan özel komutları listeler</p>
+                                        <code class="bot-only-color">-özelkomutlar</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        şarkısözü
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen şarkısözünü internette arar ve bulduğu sonucu size gönderir.</p>
+                                        <code class="bot-only-color">-şarkısözü Legends never die</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        şifreoluştur
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sizin için rastgele şifre oluşturur.</p>
+                                        <code class="bot-only-color">-şifreoluştur</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                        
+                        
+                        </div>
+                    
+                    
+                        <div class="tab-pane " id="category-2">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        ascii
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen yazıyı ASCII formatına dönüştürür.</p>
+                                        <code class="bot-only-color">-ascii Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        aze
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sizin veya belirtiğiniz kullanıcıya azerbeycan bayrağı efekti ekler.</p>
+                                        <code class="bot-only-color">-aze @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        aşkölçer
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Etiketlediğiniz kullanıcıyla aranızdaki aşk seviyesini ölçersiniz.</p>
+                                        <code class="bot-only-color">-aşkölçer @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        baykuş
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot rastgele baykuş fotoğrafları gönderir.</p>
+                                        <code class="bot-only-color">-baykuş</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        burçyorum
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen burcun günlük yorumunu gösterir.</p>
+                                        <code class="bot-only-color">-burçyorum boğa</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        caps
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Yüklediğiniz resime belirtilen yazıları ekler.</p>
+                                        <code class="bot-only-color">-caps üstyazı/altyazı (aynı zamanda resim yüklemelisiniz.)</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        devamedecek
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sizin veya belirtiğiniz kullanıcıya devam edecek efekti ekler.</p>
+                                        <code class="bot-only-color">-devamedecek @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        emojibul
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botun olduğu sunuculardaki emojilerden sizin seçtiğiniz emojiyi aratır.</p>
+                                        <code class="bot-only-color">-emojibul like</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        emojiyazı
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Yazdığınız yazıyı emoji haline çevirir.</p>
+                                        <code class="bot-only-color">-emojiyazı Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        espri
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot soğuk espri yapar.</p>
+                                        <code class="bot-only-color">-espri</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        gif
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen yazıyı gif olarak arar ve sonucu size gösterir.</p>
+                                        <code class="bot-only-color">-gif Robert Downey Jr</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        hack
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kişiyi hacklersiniz.</p>
+                                        <code class="bot-only-color">-hack @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        kaçcm
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bunun ne olduğunu anlamak için deneyimlemen lazım.</p>
+                                        <code class="bot-only-color">-kaçcm @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        kedi
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot rastgele kedi fotoğrafları gönderir.</p>
+                                        <code class="bot-only-color">-kedi</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        keko
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen mesajı büyük küçük hale getirir.</p>
+                                        <code class="bot-only-color">-keko Merhabalar</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        köpek
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot rastgele köpek fotoğrafları gönderir.</p>
+                                        <code class="bot-only-color">-köpek</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        magik
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sizin veya belirtiğiniz kullanıcıya magik efekti ekler.</p>
+                                        <code class="bot-only-color">-magik @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        mcsunucu
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen Minecraft sunucusunun istatistiklerini gösterir.</p>
+                                        <code class="bot-only-color">-mcsunucu mc.trgamer.net</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        minecraft
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcının Minecraft bilgilerini gösterir.</p>
+                                        <code class="bot-only-color">-minecraft kafa Emirkabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        nsfw
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botta bulunan uygunsuz içerikli komutları listeler.</p>
+                                        <code class="bot-only-color">-nsfw pgif</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        rastgelesöz
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot rastgele söz gönderir.</p>
+                                        <code class="bot-only-color">-rastgelesöz</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        rgif
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot rastgele gif gönderir.</p>
+                                        <code class="bot-only-color">-rgif</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        shrug
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">/shrug</p>
+                                        <code class="bot-only-color">-shrug</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        sigara
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sigara yakmanızı sağlar.</p>
+                                        <code class="bot-only-color">-sigara</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        stresçarkı
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Stres çarkı çevirmenizi sağlar.</p>
+                                        <code class="bot-only-color">-stresçarkı</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        tavşan
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot rastgele tavşan fotoğrafları gönderir.</p>
+                                        <code class="bot-only-color">-tavşan</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        ters
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen mesajı tersine çevirir.</p>
+                                        <code class="bot-only-color">-ters Merhabalar</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        tkm
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot ile taş, kağıt, makas oynamanızı sağlar.</p>
+                                        <code class="bot-only-color">-tkm makas</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        tr
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sizin veya belirtiğiniz kullanıcıya türk bayrağı efekti ekler.</p>
+                                        <code class="bot-only-color">-tr @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        triggered
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sizin veya belirtiğiniz kullanıcıya triggered resmi ekler.</p>
+                                        <code class="bot-only-color">-triggered @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        wasted
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sizin veya belirtiğiniz kullanıcıya wasted resmi ekler.</p>
+                                        <code class="bot-only-color">-wasted @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        zarat
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Zar atmanızı sağlar.</p>
+                                        <code class="bot-only-color">-zarat</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        ördek
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot rastgele ördek fotoğrafları gönderir.</p>
+                                        <code class="bot-only-color">-ördek</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        sahtemesaj
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcıya istediğiniz mesajı yazdırırsınız.</p>
+                                        <code class="bot-only-color">-sahtemesaj @Kabal Herkese günaydın!</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                        
+                        
+                        </div>
+                    
+                    
+                        <div class="tab-pane " id="category-3">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        ban
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcıyı sunucudan yasaklar.</p>
+                                        <code class="bot-only-color">-ban @Kabal Reklam yapıyorsun!</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        kick
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcıyı sunucudan atar.</p>
+                                        <code class="bot-only-color">-kick @Kabal Reklam yapıyorsun!</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        rol
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcıya belirtilen rolü verir.</p>
+                                        <code class="bot-only-color">-rol @Kabal @Moderator</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        sustur
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcıyı yazı kanallarında susturur. (süre belirtilmezse sınırsız olarak susturur)</p>
+                                        <code class="bot-only-color">-sustur @Kullanıcı 1saat Küfür ediyorsun!</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        temizle
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen sayı kadar mesaj siler.</p>
+                                        <code class="bot-only-color">-temizle 20</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        tepkirol
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen mesaj ID&#39;sine belirtilen tepkiyi ekler ve bu tepkiye tıklayanlara belirtilen rolü verir.</p>
+                                        <code class="bot-only-color">-tepkirol 123456789123456789123 @Kullanıcı :wink:</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        çekiliş
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucudaki kullanıcılar için çekiliş yapar eğer rol belirtilirse rolün içersindeki kullanıcılar için bir çekiliş yapar.</p>
+                                        <code class="bot-only-color">-çekiliş</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                        
+                        
+                        </div>
+                    
+                    
+                        <div class="tab-pane " id="category-4">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        atla
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda çalan şarkı listesinde şarkıları atlamanızı sağlar; eğer sayı belirtilirse o sayı kadar atlar.</p>
+                                        <code class="bot-only-color">-atla 2</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        devam
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda eğer şarkı çalınmıyorsa ve listede şarkı varsa şarkıyı devam ettirir.</p>
+                                        <code class="bot-only-color">-devam</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        duraklat
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda eğer şarkı oynatılıyorsa şarkıyı duraklatılır.</p>
+                                        <code class="bot-only-color">-duraklat</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        earrape
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda çalan şarkının sesini destansı yaparsınız.</p>
+                                        <code class="bot-only-color">-earrape</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        ilerisar
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda oynatılan şarkıyı istenilenen yere sarar.</p>
+                                        <code class="bot-only-color">-ilerisar 02:11 veya 01:04:03</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        karıştır
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda oynatılan şarkı listesini karıştırır.</p>
+                                        <code class="bot-only-color">-karıştır</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        liste
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda çalan şarkı listesini size gösterir.</p>
+                                        <code class="bot-only-color">-liste 2</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        oynat
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">İstedğiniz bir şarkıyı sizin için sunucuda çalmaya başlar.</p>
+                                        <code class="bot-only-color">-oynat Legends never die</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        ses
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda çalan şarkının sesini ayarlarsınız.</p>
+                                        <code class="bot-only-color">-ses 10</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        tekrarla
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda çalan şarkı sona erdiğinde baştan oynatılır.</p>
+                                        <code class="bot-only-color">-tekrarla [şarkı|liste|kapat]</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        çık
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sunucunuzda çalan şarkı listesini sonlandırır ve bot odadan çıkar.</p>
+                                        <code class="bot-only-color">-çık</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                                
+                                
+                                
+                        
+                        
+                        </div>
+                    
+                    
+                        <div class="tab-pane " id="category-5">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        günlük
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Günlük kredi almanızı sağlar.</p>
+                                        <code class="bot-only-color">-günlük</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        kredi
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kişinin kredisini görürsünüz.</p>
+                                        <code class="bot-only-color">-kredi @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        krediyolla
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Belirtilen kullanıcıya kredi yollarsınız.</p>
+                                        <code class="bot-only-color">-krediyolla @Kabal 500</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        profil
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Profilinizi görmenizi sağlarsınız.</p>
+                                        <code class="bot-only-color">-profil @Kabal</code>
+                                    </div>
+                                </div>
+                            
+                                
+                        
+                        
+                        </div>
+                    
+                    
+                        <div class="tab-pane " id="category-6">
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        slots
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Haydi rastgele!</p>
+                                        <code class="bot-only-color">-slots 500</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                <div class="card card-color custom-shadow" style="margin-bottom:30px">
+                                    <div class="card-header">
+                                        yazıtura
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bot sizin için yazı tura atar.</p>
+                                        <code class="bot-only-color">-yazıtura</code>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                        
+                        
+                        </div>
+                    
+                    
+                </div>
+                <script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- sabit yeni -->
+<div style="padding-top: 30px;">
+	<center>
+	<ins class="adsbygoogle"
+		 style="display:block"
+		 data-ad-client="ca-pub-4879579032863674"
+		 data-ad-slot="9923567844"
+		 data-ad-format="auto"
+		 data-full-width-responsive="true"></ins>
+	</center>
+</div>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+            
+            
+            <div class="col-md-3">
+                <center>
+                    <iframe class="custom-shadow" src="https://discordapp.com/widget?id=399682347630329867&amp;theme=dark" height="400"
+                        allowtransparency="false" frameborder="0"></iframe>
+                </center>
+                <script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- sabit yeni -->
+<div style="padding-top: 30px;">
+	<center>
+	<ins class="adsbygoogle"
+		 style="display:block"
+		 data-ad-client="ca-pub-4879579032863674"
+		 data-ad-slot="9923567844"
+		 data-ad-format="auto"
+		 data-full-width-responsive="true"></ins>
+	</center>
+</div>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+        </div>
+    </div>
+    
+        
+    </div>
+
+    
+
+<footer class="footer-bs">
+    <div class="row">
+        <div class="col-md-3 footer-brand animated fadeInLeft">
+            <h2><img src="public/img/logo/botlogobutgood2.svg" style="width: 60%;"></h2>
+            <p>Kabal's Bot Sanal Robot Asistan, Discord üzerinde bulunan müzik, eğlence, rol düzenleme, denetim kaydı ve level botudur.  </p>
+            <p>Copyright © 2018 - <script>document.write(new Date().getFullYear());</script> Kabal's Bot, Tüm Hakları Saklıdır</p>
+        </div>
+        <div class="col-md-2 footer-social animated fadeInDown">
+            <h4>Sayfalar</h4>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="index.html#features">Özellikler</a></li>
+                <li><a href="index.html#plans">Abonelikler</a></li>
+                <li><a href="commands.html">Komutlar</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 footer-social animated fadeInDown">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="legal/privacy-policy.html">Gizlilik Politikası</a></li>
+                <li><a href="legal/terms-of-service.html">Kullanım Şartları ve Koşulları</a></li>
+                <li><a href="legal/iade-politikasi.html">Teslimat ve İade Koşulları</a></li>
+                <li><a href="legal/mesafeli-satis-sozlesmesi.html">Mesafeli Satış Sözleşmesi</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 footer-social animated fadeInDown">
+            <h4>Bilgilendirme</h4>
+            <ul>
+                <li><a href="about.html">Hakkında</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 footer-ns animated fadeInRight">
+            <h4>Ödeme Yöntemleri</h4>
+            <img src="public/img/pay/mastercard-white.svg" width="60" alt="">
+            <img src="public/img/pay/visa.svg" width="100" alt="">
+            <img src="public/img/pay/troy.svg" width="100" alt="">
+        </div>
+    </div>
+</footer>
+
+
+<script>
+
+    const SITE_URI = "index.html";
+    const REDIRECT_URI = "https://discordapp.com/api/oauth2/authorize?prompt=none&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fbot.emirkabal.com%2Fauth%2Fcallback&amp;scope=identify%20guilds&amp;client_id=462174014048043008";
+    const INVITE_URI = "https://discordapp.com/oauth2/authorize?client_id=462174014048043008&amp;scope=bot&amp;permissions=8";
+
+</script>
+
+
+<script src="../code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="../cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="../stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="../cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle%403.6.1/js/bootstrap4-toggle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<script src="build/4823471440205466.purecookie.js"></script>
+<script src="build/7950182473613635.custom.js"></script>
+
+<!-- <script>
+    if (navigator.userAgent.indexOf("WOW64") != -1) {
+
+        var txt = "Internet Explorer algılandı. lütfen sitenin düzgün bir şekilde çalışması için Google Chrome, Opera veya farklı bir tarayıcı kullanınız.";
+
+        var ie = document.createElement('div');
+        ie.setAttribute("style", "width:100%;height:100%;zindex:9999;text-align:center; background: rgba(255, 255, 255, .4); color: black; position: fixed; top:0px; left:0px;");
+
+        var label = document.createElement('label');
+        label.innerHTML = txt;
+        ie.appendChild(label);
+        document.body.appendChild(ie);
+    }
+</script> -->
+
+
+
+
+</body>
+
+
+<!-- Mirrored from bot.emirkabal.com/commands by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Dec 2020 10:23:34 GMT -->
+</html>
